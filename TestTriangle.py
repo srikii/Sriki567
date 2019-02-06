@@ -43,7 +43,7 @@ class TestTriangles(unittest.TestCase):
         self.assertEqual(classifyTriangle(10,2,3),'NotATriangle','10,2,3 is not a triangle')
     
     def testTriF(self):
-        self.assertEqual(classifyTriangle(5,5,5.5),'InvalidInput','5.5, 5.5, 5.5 is invalid as it takes only int and not float')
+        self.assertEqual(classifyTriangle(5,5,5.5),'InvalidInput','5, 5, 5.5 is invalid as it takes only int and not float')
 
 
 if __name__ == '__main__':
